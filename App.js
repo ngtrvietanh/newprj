@@ -25,6 +25,7 @@ const App = () => {
       setValue2(param2 ?? 0)
       setCount(sum ?? 0)
     } catch(e) {
+      console.log("===>>oke")
       // error reading value
     }
   }
