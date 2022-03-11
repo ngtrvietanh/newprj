@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, Text, TouchableOpacity, View,} from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
-// import Icon from './src/@assets/Fonts';
+import Icon from 'react-native-vector-icons/AntDesign'
+import login from "./src/screen/login";
 
 const App = () => {
+  
   const [count, setCount] = useState(0);
   const [value1, setValue1] = useState(0)
   const [value2, setValue2] = useState(0);
@@ -62,6 +64,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+      <Icon name="left" color="red" size={50} />
       <View style={styles.countContainer}>
         <Text>{`${value1} + ${value2} = ${count}`}</Text>
       </View>
