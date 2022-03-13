@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  View,
-  FlatList,
-} from 'react-native';
+import {View, FlatList} from 'react-native';
 // import AsyncStorage from '@react-native-async-storage/async-storage';
 // import Icon from 'react-native-vector-icons/AntDesign'
 // import login from "./src/screen/login";
@@ -41,6 +38,7 @@ const App = () => {
   );
 };
 export default App;
+
 // Flatlist
 
 // const A = async () => {
@@ -52,3 +50,5 @@ export default App;
 //     console.log('Finish3');},1000);
 //   console.log(response, response2, response3)}
 // A();
+
+
