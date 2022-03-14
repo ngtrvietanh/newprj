@@ -42,7 +42,7 @@ const Song = props => {
     }}>
       <Image source={{uri: img}} style={{height: 168, width: '100%'}} />
       <Text style={styles.title1}>{name}</Text>
-      <Text style={styles.title2}>{singer}</Text>
+      <Text style={styles.title2}>Singer: {singer}</Text>
       <Text style={styles.title2}>{date}</Text>
     </TouchableOpacity>
   );
