@@ -1,18 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
-import Header from './src/screen2/Header';
-import Content from './src/screen2/Content';
-const App = () => {
-  return (
-    <View>
-      <Header/>
-      <Content/>
-    </View>
-  );
-};
+// import React from 'react';
 
-export default App;
+// import './styles.css';
 
-const styles = StyleSheet.create({
-
-});
+// export default function App() {
+//   return (
+//     <div className="App">
+//       <TodoApp />
+//     </div>
+//   );
+// }
